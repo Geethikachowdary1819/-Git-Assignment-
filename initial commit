@@ -30,8 +30,8 @@ if answer.lower()=='yes':
     else:
         print('Wrong Answer :(')
 if answer.lower()=='yes':
-    answer=input('Question 4:What is the name of your favourite fruit for learning python?')
-    if answer.lower()=='apple':
+    answer=input('Question 4:What is the name of your favourite animal for learning python?')
+    if answer.lower()=='dog':
         score += 1
         print('correct')
 print('Thankyou for Playing this small quiz game, you attempted',score,"questions correctly!")
