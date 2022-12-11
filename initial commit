@@ -12,17 +12,13 @@ if answer.lower()=='yes':
         print('Wrong Answer :(')
 if answer.lower()=='yes':
     answer=input('Question 2:What is the name of your favourite website for learning python?')
-    if answer.lower()=='askpython':
+    if answer.lower()=='python.org':
         score += 1
         print('correct')
     else:
         print('Wrong Answer :(')
 
-        if if answer.lower()=='yes':
-    answer=input('Question 4:What is the name of your favourite fruit for learning python?')
-    if answer.lower()=='askpython':
-        score += 1
-        print('correct')':
+if answer.lower()=='yes':      
     answer=input('Question 3:Name a python library used to do NLP tasks ?')
     if answer.lower()=='nltk':
         score += 1
@@ -30,8 +26,8 @@ if answer.lower()=='yes':
     else:
         print('Wrong Answer :(')
 if answer.lower()=='yes':
-    answer=input('Question 4:What is the name of your favourite fruit for learning python?')
-    if answer.lower()=='apple':
+    answer=input('Question 4:What animal is the symbol for learning python?')
+    if answer.lower()=='python snake':
         score += 1
         print('correct')
 print('Thankyou for Playing this small quiz game, you attempted',score,"questions correctly!")
